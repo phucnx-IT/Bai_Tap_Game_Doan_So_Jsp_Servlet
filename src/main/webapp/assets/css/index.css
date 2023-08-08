@@ -1,0 +1,47 @@
+.congratulate{
+        background-image: url("../images/congrats-9.gif");
+        background-repeat: repeat;
+}
+#login_container{
+        display: flex; 
+        align-items: center; 
+        text-align: center; 
+        padding-top: 50px; 
+        color: green; 
+        font-weight: bold; 
+        font-size: 30px;
+        justify-content: center;
+}
+#game_container{
+        height: 70vh;
+        display: flex; 
+        text-align: center; 
+        padding-top: 50px; 
+        color: green; 
+        font-weight: bold; 
+        font-size: 30px;
+        justify-content: center;
+        flex-direction: column;
+}
+#input_name{
+        border-radius: 10px;
+}
+#input_number{
+        border-radius: 10px;
+        width: 20vw;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#btn_playgame{
+        text-transform: capitalize;
+}
